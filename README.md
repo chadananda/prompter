@@ -3,10 +3,7 @@ Prompter
 
 ### HTML5 Text Prompter for Audio Recording
 
-
-## Overview
-
-This is a simple HTML5/Javascript web app which provides a scrolling HTML document viewer with embedded recording and playback tools for each HTML block. (Div, Paragraph or H#)
+Prompter is a simple HTML5/Javascript web app which provides a scrolling HTML document viewer with embedded recording and playback tools for each HTML block. (Div, Paragraph or H#)
 
 ## Details
 
