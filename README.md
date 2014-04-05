@@ -4,32 +4,11 @@ Prompter
 ### HTML5 Text Prompter for Audio Recording
 
 
-### Javascript Teleprompter Recording App for HTML Documents
+## Overview
 
-This is a simple Javascript web app HTML document viewer which adds two features: 
+This is a simple HTML5/Javascript web app which provides a scrolling HTML document viewer with embedded recording and playback tools for each HTML block. (Div, Paragraph or H#)
 
-1) Teleprompter style scrolling and 
-2) Block-level HTML5 audio recording, saving recorded audio in a local data store
-3) Data is synced to a remote database 
-4) Login is based on user/password accessing remote database at least once
-
-
-### Teleprompter libraries are available off-the-shelf such as: 
-
-http://jscroll.com/ (endless scrolling)
-http://www.javascriptsource.com/miscellaneous/teleprompter.html 
-
-### Interface concept: look at this teleprompt app: simple and easy to read:
-https://itunes.apple.com/us/app/teleprompt+-for-ipad/id364903926?mt=8
-
-### A jQuery plugin for audio recording:
-
-http://www.sajithmr.me/jrecorder-jquery
-
-### Database connectors for local data and PouchDB:
-
-PouchDB: https://github.com/daleharvey/pouchdb
-Backbone connector for PouchDB: https://github.com/jo/backbone-pouch
+## Details
 
 * App takes a URL to provide HTML file to be read, keeps the file for later
     * Suggstion: on load, break up file into sequential records in the local database
@@ -52,5 +31,28 @@ Backbone connector for PouchDB: https://github.com/jo/backbone-pouch
 * Remote DB settings and recording settings (gain, bitrate) should JS config file controlled by developer (not end user)
 
 * Application should use a backbone.js/marionette.js approach but need not use Require.js or any other AMD
+
+
+
+## Helpful Tools
+
+#### Teleprompter libraries are available off-the-shelf such as: 
+
+http://jscroll.com/ (endless scrolling)
+
+http://www.javascriptsource.com/miscellaneous/teleprompter.html 
+
+#### Interface concept: look at this teleprompt app: simple and easy to read:
+
+https://itunes.apple.com/us/app/teleprompt+-for-ipad/id364903926?mt=8
+
+#### A jQuery plugin for audio recording:
+
+http://www.sajithmr.me/jrecorder-jquery
+
+#### Database connectors for local data and PouchDB:
+
+PouchDB: https://github.com/daleharvey/pouchdb
+Backbone connector for PouchDB: https://github.com/jo/backbone-pouch
 
 
