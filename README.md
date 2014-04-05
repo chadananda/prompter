@@ -55,4 +55,12 @@ http://www.sajithmr.me/jrecorder-jquery
 PouchDB: https://github.com/daleharvey/pouchdb
 Backbone connector for PouchDB: https://github.com/jo/backbone-pouch
 
+## Skills required: 
+
+Javascript, Backbone.js, Marionette.js, HTML5, jQuery, NoSQL Couch 
+
+
+
+
+
 
