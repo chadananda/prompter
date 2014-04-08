@@ -8,7 +8,7 @@ Prompter is a simple HTML5/Javascript web app which provides a scrolling HTML do
 ## Details
 
 * App takes a URL to provide HTML file to be read, keeps the file for later
-    * Suggstion: on load, break up file into sequential records in the local database
+    * Suggstion: on document's first load, break up into sequential records into the local database
     * Then attach audio to each record as it is complete
     * Allow PouchDB/CouchDB to manage syncing up these records
     * Each record should have the original URL, reader username, block ID, sequence #, and text to be read
@@ -29,7 +29,9 @@ Prompter is a simple HTML5/Javascript web app which provides a scrolling HTML do
 
 * Application should use a backbone.js/marionette.js approach but need not use Require.js or any other AMD
 
-
+* Application should have a simple Grunt build targeting HTML5, node-webkit and Phonegap build.
+   * https://www.npmjs.org/package/grunt-node-webkit-builder
+   * https://github.com/centralway/grunt-phonegap-build
 
 ## Helpful Tools
 
